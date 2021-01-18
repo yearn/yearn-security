@@ -33,7 +33,7 @@ For all security related issues, Yearn has four main points of contact:
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
 | banteg                 | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/banteg.asc)                           | banteeg at gmail.com              | [@banteg](https://keybase.io/banteg/chat)       |
 | milkyklim              | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/milkyklim.asc)                        | y at milkyklim.com                | [@milkyklim](https://keybase.io/milkyklim/chat) |
-| Doggie Boy / fubuloubu | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/publickey.yearn-security%40pm.me.asc) | yearn-security at pm.me           | N/A                                             |
+| Doggie Boy / fubuloubu | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/publickey.yearn-security%40pm.me.asc) | yearn-security at pm.me           | [@fubuloubu](https://keybase.io/fubuloubu/chat) |
 | Daniel Lehnberg        | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/lehnberg.asc)                         | daniel.lehnberg at protonmail.com | [@lehnberg](https://keybase.io/lehnberg/chat)   |
 
 Include all contacts in your communication, PGP encrypted to all parties.
