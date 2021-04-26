@@ -1,7 +1,7 @@
 # yearn-security
 
 ## Security policy
-Yearn's security policy is available at https://github.com/iearn-finance/yearn-protocol/blob/develop/SECURITY.md
+Yearn's security policy is available at https://github.com/yearn/yearn-security/blob/master/SECURITY.md
 
 ## About
 This git repository is a central place for all other security-related information about the Yearn project. It includes the following:
