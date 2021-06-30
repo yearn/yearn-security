@@ -1,4 +1,4 @@
-## Yearn's Security Process
+# Yearn's Security Process
 
 This document describes the Security Process for Yearn Finance, including vulnerability disclosures and its [Bug Bounty program](#bug-bounty-program). We are committed to conduct our Security Process in a professional and civil manner. Public shaming, under-reporting, or misrepresentation of vulnerabilities will not be tolerated.
 
@@ -6,8 +6,7 @@ To submit a finding, please follow the steps outlined in receiving disclosures [
 
 ## Responsible Disclosure Standard
 
-Yearn follows a community [standard](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#the-standard) for responsible disclosure in cryptocurrency and related software. This document is a public commitment to
-following the standard.
+Yearn follows a community [standard](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#the-standard) for responsible disclosure in cryptocurrency and related software. This document is a public commitment to following the standard.
 
 This standard provides detailed information for:
 
@@ -74,21 +73,35 @@ Yearn has a Bug Bounty program to encourage security researchers to spend time s
 
 ### Rewards
 
-- **Severe:** 20,000-50,000 yUSD
-- **High:** 5,000-20,000 yUSD
-- **Medium:** 1,000-5,000 yUSD
-- **Low:** 100-1,000 yUSD
+- **Severe:** $20,000-$200,000
+- **High:** $5,000-$20,000
+- **Medium:** $1,000-$5,000
+- **Low:** $100-$1,000
 
-Actual payouts are determined by classifying the vulnerability based on its impact and likelihood to be exploited successfully, as well as the process working with the disclosing security researcher. The rewards represent the _maximum_ that will be paid out for a disclosure.
+_Paid out in USD equivalent of USDC, DAI, ETH, YFI, or their Yearn Vault counterparts._
 
-Rewards are paid out in [yUSD](https://etherscan.io/token/0x5dbcf33d8c2e976c6b560249878e6f1491bca25c).
+Actual payouts are determined by classifying the vulnerability based on its impact and likelihood to be exploited successfully, as well as the process working with the disclosing security researcher. The rewards above represent the _maximum_ that will be paid out for a disclosure.
 
 ### Scope
 
-The scope of the Bug Bounty program spans smart contracts utilized in the Yearn ecosystem. For exact smart contracts, refer to:
+The scope of the Bug Bounty program spans smart contracts utilized in the Yearn ecosystem.
 
-- [yearn-vaults](https://github.com/iearn-finance/yearn-vaults/blob/master/SECURITY.md)
-- [yearn-protocol](https://github.com/iearn-finance/yearn-protocol/blob/develop/SECURITY.md)
+#### Repositories
+
+For exact smart contracts, refer to:
+
+- [yearn-vaults](https://github.com/yearn/yearn-vaults/blob/master/SECURITY.md)
+- [yearn-protocol](https://github.com/yearn/yearn-protocol/blob/develop/SECURITY.md)
+
+#### Production Contracts
+
+Yearn adds and removes Vaults and Strategies from Production on an ongoing basis. The following functions can be called to obtain a list of smart contract addresses that are currently in Production and that are covered by the program.
+
+| Contract                   | Description                           | Address                                      | Function to call              |
+| -------------------------- | ------------------------------------- | -------------------------------------------- | ----------------------------- |
+| StrategiesHelper           | list of production strategy addresses | `0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a` | `assetsStrategiesAddresses()` |
+| AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses   | `0x437758D475F70249e03EDa6bE23684aD1FC375F0` | `assetsAddresses()`           |
+| AddressesGeneratorIronBank | list of iron bank market addresses    | `0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46` | `assetsAddresses()`           |
 
 Note: Other contracts, outside of the ones mentioned above, might be considered on a case by case basis, please, reach out to the Yearn development team for clarification.
 
@@ -118,7 +131,7 @@ In the case of a counterfeiting or fund-stealing bug affecting Yearn, however, w
 
 ## More Information
 
-Additional security-related information about the Yearn project including disclosures, signatures and PGP public keys can be found in the [yearn-security](https://github.com/iearn-finance/yearn-security) repository.
+Additional security-related information about the Yearn project including disclosures, signatures and PGP public keys can be found in the [yearn-security](https://github.com/yearn/yearn-security) repository.
 
 ## Credits
 
