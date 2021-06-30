@@ -84,7 +84,7 @@ Actual payouts are determined by classifying the vulnerability based on its impa
 
 ### Scope
 
-The scope of the Bug Bounty program spans smart contracts utilized in the Yearn ecosystem.
+The scope of the Bug Bounty program spans production smart contracts utilized in the Yearn ecosystem.
 
 #### Repositories
 
