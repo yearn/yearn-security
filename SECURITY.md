@@ -105,23 +105,6 @@ Yearn adds and removes Vaults and Strategies from Production on an ongoing basis
 
 Note: Other contracts, outside of the ones mentioned above, might be considered on a case by case basis, please, reach out to the Yearn development team for clarification.
 
-### Bug Bounty FAQ
-
-**Q:** Is there a time limit for the Bug Bounty program?\
-**A:** No. The Bug Bounty program currently has no end date, but this can be changed at any time at the discretion of Yearn.
-
-**Q:** How big is the Bug Bounty program?\
-**A:** There is currently a rolling \$500,000 bounty for bugs. This amount may be changed by a Yearn governance vote.
-
-**Q:** How are bounties paid out?\
-**A:** Rewards are paid out in yUSD.
-
-**Q:** Can I submit bugs anonymously and still receive payment?\
-**A:** Yes. If you wish to remain anonymous you can do so and still be eligible for rewards as long as they are for valid bugs. Rewards will be sent to the valid Ethereum address that you provide.
-
-**Q:** Can I donate my reward to charity?\
-**A:** Yes. You may donate your reward to a charity of your choosing, or to a gitcoin grant.
-
 ## Deviations from the Standard
 
 The standard describes reporters of vulnerabilities including full details of an issue, in order to reproduce it. This is necessary for instance in the case of an external researcher both demonstrating and proving that there really is a security issue, and that security issue really has the impact that they say it
