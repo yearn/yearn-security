@@ -108,11 +108,15 @@ For exact smart contracts, refer to:
 
 Yearn adds and removes Vaults and Strategies from Production on an ongoing basis. The following functions can be called to obtain a list of smart contract addresses that are currently in Production and that are covered by the program.
 
-| Contract                   | Description                           | Address                                      | Function to call              |
-| -------------------------- | ------------------------------------- | -------------------------------------------- | ----------------------------- |
-| StrategiesHelper           | list of production strategy addresses | `0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a` | `assetsStrategiesAddresses()` |
-| AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses   | `0x437758D475F70249e03EDa6bE23684aD1FC375F0` | `assetsAddresses()`           |
-| AddressesGeneratorIronBank | list of iron bank market addresses    | `0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46` | `assetsAddresses()`           |
+| Network | Contract | Description | Address | Function to call |
+| --- | --- | --- | --- | --- |
+| Ethereum | StrategiesHelper | list of production strategy addresses | [`0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a`](https://etherscan.io/address/0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a#readContract) | `assetsStrategiesAddresses()` |
+| Ethereum | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x437758D475F70249e03EDa6bE23684aD1FC375F0`](https://etherscan.io/address/0x437758D475F70249e03EDa6bE23684aD1FC375F0#readContract) | `assetsAddresses()` |
+| Ethereum | AddressesGeneratorIronBank | list of iron bank market addresses | [`0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46`](https://etherscan.io/address/0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46#readContract) | `assetsAddresses()` |
+| Fantom | StrategiesHelper | list of production strategy addresses | [`0x97D0bE2a72fc4Db90eD9Dbc2Ea7F03B4968f6938`](https://ftmscan.com/address/0x97D0bE2a72fc4Db90eD9Dbc2Ea7F03B4968f6938#readContract) | `assetsStrategiesAddresses()` |
+| Fantom | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x8ca27a3ab8917a033f278D20135d2467faA099bA`](https://ftmscan.com/address/0x8ca27a3ab8917a033f278D20135d2467faA099bA#readContract) | `assetsAddresses()` |
+| Fantom | AddressesGeneratorIronBank | list of iron bank market addresses | [`0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B`](https://ftmscan.com/address/0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B#readContract) | `assetsAddresses()` |
+
 
 Note: Other contracts, outside of the ones mentioned above, might be considered on a case by case basis, please, reach out to the Yearn development team for clarification.
 
