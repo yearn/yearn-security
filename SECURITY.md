@@ -28,7 +28,7 @@ security related issues according to the
 and [giving details](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#giving-details)
 guidelines.
 
-For all security related issues, Yearn has four main points of contact:
+For all security related issues, Yearn has the following main points of contact:
 
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
