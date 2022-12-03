@@ -33,6 +33,7 @@ For all security related issues, Obol has the following main points of contact:
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
 | obol security team              |                        | security at obol.tech                |  |
+
 Include all contacts in your communication, PGP encrypted to all parties.
 
 You can also reach out informally over keybase encrypted chat to one or more of the contacts as per the details above.
