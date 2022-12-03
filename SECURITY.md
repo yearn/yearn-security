@@ -32,18 +32,10 @@ For all security related issues, Obol has the following main points of contact:
 
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
-
+| obol security team              |                        | security at obol.tech                |  |
 Include all contacts in your communication, PGP encrypted to all parties.
 
 You can also reach out informally over keybase encrypted chat to one or more of the contacts as per the details above.
-
-### Via Immunefi
-
-A bug bounty is also hosted on Immunefi at the address [https://immunefi.com/bounty/ObolNetwork/](https://immunefi.com/bounty/ObolNetwork/).
-
-Vulnerabilities may also be disclosed through the [Immunefi platform](https://immunefi.com/). Immunefi will then handle bug bounty communications.
-
-Users who violate the rules of participation will not receive bug bounty payouts and may be temporarily suspended or banned from the bug bounty program.
 
 ## Sending Disclosures
 
