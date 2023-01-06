@@ -1,0 +1,22 @@
+# This is a basic workflow adding every issue in this repo to the Obol Project Management Board
+name: Add Issue To Project
+
+# Controls when the workflow will run - new issues
+on:
+  issues:
+    types:
+      - opened
+
+# This workflow contains a single job called "build"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    # Steps
+    steps:
+      - name: Add Issue To Project
+        uses: actions/add-to-project@v0.3.0
+        with:
+          # URL of the project to add issues to
+          project-url: https://github.com/orgs/ObolNetwork/projects/7
+          # A GitHub personal access token with write access to the project, need org admin's token with repo and project permissions, need to store the token outside the script if public
+          github-token: ${{ secrets.GH_ORG_ADMIN_SECRET }}
