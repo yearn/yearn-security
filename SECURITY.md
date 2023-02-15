@@ -32,7 +32,7 @@ For all security related issues, Obol has the following main points of contact:
 
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
-| obol security team              |                        | security at obol.tech                |  |
+| eth2devops              |[PGP](https://github.com/ObolNetwork/obol-security/blob/main/keys/eth2devops.asc) | eth2devops at obol.tech                |[@eth2devops](https://keybase.io/eth2devops/chat)|
 
 Include all contacts in your communication, PGP encrypted to all parties.
 
@@ -97,7 +97,6 @@ Obol adds and removes Vaults and Strategies from Production on an ongoing basis.
 
 | Network | Contract | Description | Address | Function to call |
 | --- | --- | --- | --- | --- |
-
 
 Note: Other contracts, outside of the ones mentioned above, might be considered on a case by case basis, please, reach out to the Obol development team for clarification.
 
