@@ -1,0 +1,4 @@
+# This file sets up the designated owners of the infrastructure repo. 
+# All PR's will require a review from a member of the codeowners team.
+
+* @ObolNetwork/platform
