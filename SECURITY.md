@@ -108,7 +108,7 @@ For exact smart contracts, refer to:
 
 Yearn adds and removes Vaults and Strategies from Production on an ongoing basis. The following functions can be called to obtain a list of smart contract addresses that are currently in Production and that are covered by the program.
 
-> IMPORTANT NOTICE: Keep in mind that the smart contracts mentioned in the table below, responsible for generating lists of addresses, are **NOT** part of the program's scope. **Only the contracts inside the generated lists are covered by the program.**
+> IMPORTANT NOTICE: Keep in mind that the smart contracts mentioned in the table below are **only** helper contracts to fetch the actual vaults and strategies in production, they don't hold any funds and are **NOT** part of the bounty program's scope. **To get the actual contract addresses for vaults and strategies part of the bounty program you need to call the query functions on these helper contracts listed in the table below.**
 
 | Network | Contract | Description | Address | Function to call |
 | --- | --- | --- | --- | --- |
