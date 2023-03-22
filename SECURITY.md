@@ -108,6 +108,8 @@ For exact smart contracts, refer to:
 
 Yearn adds and removes Vaults and Strategies from Production on an ongoing basis. The following functions can be called to obtain a list of smart contract addresses that are currently in Production and that are covered by the program.
 
+> IMPORTANT NOTICE: Keep in mind that the smart contracts mentioned in the table below are **only** helper contracts to fetch the actual vaults and strategies in production, they don't hold any funds and are **NOT** part of the bounty program's scope. **To get the actual contract addresses for vaults and strategies part of the bounty program you need to call the query functions on these helper contracts listed in the table below.**
+
 | Network | Contract | Description | Address | Function to call |
 | --- | --- | --- | --- | --- |
 | Ethereum | StrategiesHelper | list of production strategy addresses | [`0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a`](https://etherscan.io/address/0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a#readContract) | `assetsStrategiesAddresses()` |
@@ -117,6 +119,14 @@ Yearn adds and removes Vaults and Strategies from Production on an ongoing basis
 | Fantom | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x8ca27a3ab8917a033f278D20135d2467faA099bA`](https://ftmscan.com/address/0x8ca27a3ab8917a033f278D20135d2467faA099bA#readContract) | `assetsAddresses()` |
 | Fantom | AddressesGeneratorIronBank | list of iron bank market addresses | [`0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B`](https://ftmscan.com/address/0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B#readContract) | `assetsAddresses()` |
 
+The following contracts are also included in the bounty program, although they won't show on the above lists:
+
+| Network | Contract Name | Address |
+| --- | --- | --- |
+| Ethereum | yCRV | [`0xFCc5c47bE19d06BF83eB04298b026F81069ff65b`](https://etherscan.io/address/0xFCc5c47bE19d06BF83eB04298b026F81069ff65b) |
+| Ethereum | Donator | [`donatooor.ychad.eth`](https://etherscan.io/name-lookup-search?id=donatooor.ychad.eth) |
+| Ethereum | Splitter | [`bribe-splitter.ychad.eth`](https://etherscan.io/name-lookup-search?id=bribe-splitter.ychad.eth) |
+| Ethereum | yBribe | [`ybribe.ychad.eth`](https://etherscan.io/name-lookup-search?id=ybribe.ychad.eth) |
 
 Note: Other contracts, outside of the ones mentioned above, might be considered on a case by case basis, please, reach out to the Yearn development team for clarification.
 
