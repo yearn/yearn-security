@@ -32,7 +32,9 @@ For all security related issues, Obol has the following main points of contact:
 
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
+| obol security              |[PGP](https://github.com/ObolNetwork/obol-security/blob/main/keys/obol security (B6D735C5) – Public.asc) | security at obol.tech                ||
 | eth2devops              |[PGP](https://github.com/ObolNetwork/obol-security/blob/main/keys/eth2devops.asc) | eth2devops at obol.tech                |[@eth2devops](https://keybase.io/eth2devops/chat)|
+
 
 Include all contacts in your communication, PGP encrypted to all parties.
 
@@ -49,7 +51,7 @@ In the case where we fix a security issue in Obol that also affects the followin
 _Obol does not currently have any established bilateral disclosure agreements._
 
 ## Bug Bounty Program
-TBD
+Obol's bug bounty policy is published [here](https://docs.obol.tech/docs/sec/bug-bounty)
 
 ## Deviations from the Standard
 
