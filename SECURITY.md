@@ -118,6 +118,10 @@ Yearn adds and removes Vaults and Strategies from Production on an ongoing basis
 | Fantom | StrategiesHelper | list of production strategy addresses | [`0x97D0bE2a72fc4Db90eD9Dbc2Ea7F03B4968f6938`](https://ftmscan.com/address/0x97D0bE2a72fc4Db90eD9Dbc2Ea7F03B4968f6938#readContract) | `assetsStrategiesAddresses()` |
 | Fantom | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x8ca27a3ab8917a033f278D20135d2467faA099bA`](https://ftmscan.com/address/0x8ca27a3ab8917a033f278D20135d2467faA099bA#readContract) | `assetsAddresses()` |
 | Fantom | AddressesGeneratorIronBank | list of iron bank market addresses | [`0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B`](https://ftmscan.com/address/0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B#readContract) | `assetsAddresses()` |
+| Optimism | StrategiesHelper | list of production strategy addresses | [`0xD3A93C794ee2798D8f7906493Cd3c2A835aa0074`](https://optimistic.etherscan.io/address/0xD3A93C794ee2798D8f7906493Cd3c2A835aa0074#readContract) | `assetsStrategiesAddresses()` |
+| Optimism | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032`](https://optimistic.etherscan.io/address/0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032#readContract) | `assetsAddresses()` |
+| Arbitrum | StrategiesHelper | list of production strategy addresses | [`0x66a1a27f4b22dcaa24e427dcffbf0cddd9d35e0f`](https://arbiscan.io/address/0x66a1a27f4b22dcaa24e427dcffbf0cddd9d35e0f#readContract) | `assetsStrategiesAddresses()` |
+| Arbitrum | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x3a8efa2d87d60c0289f19b44a0928f4269c0f094`](https://arbiscan.io/address/0x3a8efa2d87d60c0289f19b44a0928f4269c0f094#readContract) | `assetsAddresses()` |
 
 The following contracts are also included in the bounty program, although they won't show on the above lists:
 
