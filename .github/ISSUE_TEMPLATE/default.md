@@ -45,11 +45,7 @@ Provide a detailed description of the security issue identified.
 ## Proposed Mitigation or Remediation Steps
 
  <If available, provide any potential mitigation or remediation steps>
- 
+
 ## Expected Resolution
 
  <What should be done to consider the vulnerability addressed>
-
-
-
-
