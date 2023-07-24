@@ -16,12 +16,12 @@ To ensure that all security issues are triaged effectively, addressed promptly a
 **NOTE:**
 This process is regularly reviewed, and the form and/or system may change over time. If you need an immediate response or the security incident is of high severity, please use an appropriate escalation such as a direct message to the #security channel in Slack, an escalation to your team, or open an incident in PagerDuty.
 
-## **If urgent, here's how to reach out to us on Slack:**
+## **If urgent, here's how to reach out to us on Discord:**
 
-1. Open the Slack application.
-2. In the "Jump to..." search bar at the top, type `#security` and select the channel.
-3. In the message field at the bottom, describe the security issue you're facing. Please provide as much context as possible.
-4. Press Enter to send the message. A member of our security team will review and respond as soon as possible.
+- Open the Discord application.
+- In the server list on the left, find and click on the **Obol Network** server.
+- Scroll through the channel list on the left, and click on the #security channel.
+- Press Enter to send the message. A member of our security team will review your message and respond as soon as possible.
 
 ## Issue Description
 Provide a detailed description of the security issue identified.
