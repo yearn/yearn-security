@@ -32,7 +32,7 @@ For all security related issues, Obol has the following main points of contact:
 
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
-| obol security              |[PGP](https://github.com/ObolNetwork/obol-security/blob/main/keys/obol security (B6D735C5) – Public.asc) | security at obol.tech                ||
+| obol security              |[PGP](<https://github.com/ObolNetwork/obol-security/blob/main/keys/obol security (B6D735C5) – Public.asc>) | security at obol.tech                ||
 | eth2devops              |[PGP](https://github.com/ObolNetwork/obol-security/blob/main/keys/eth2devops.asc) | eth2devops at obol.tech                |[@eth2devops](https://keybase.io/eth2devops/chat)|
 
 
