@@ -33,7 +33,6 @@ For all security related issues, Yearn has the following main points of contact:
 | Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
 | 0xJiji                 | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/0xjiji.asc)                           | 0x7171 at protonmail.com                | [@0xjiji](https://keybase.io/0xjiji/chat) |
-| banteg                 | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/banteg.asc)                           | banteeg at gmail.com              | [@banteg](https://keybase.io/banteg/chat)       |
 | Doggie Boy / fubuloubu | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/publickey.yearn-security%40pm.me.asc) | yearn-security at pm.me           | [@fubuloubu](https://keybase.io/fubuloubu/chat) |
 
 Include all contacts in your communication, PGP encrypted to all parties.
