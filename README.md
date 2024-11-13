@@ -8,7 +8,7 @@ This git repository is a central place for all other security-related informatio
 
 * Security contact PGP keys (`keys/`)
 * Public disclosures (`disclosures/`)
-* Security adits (`audits/`)
+* Security audits (`audits/`)
 
 ## Verify
 The files contained in this repository can be verified in two ways:
