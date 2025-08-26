@@ -1,8 +1,9 @@
 # Yearn's Security Process
 
-This document describes the Security Process for Yearn Finance, including vulnerability disclosures and its [Bug Bounty program](#bug-bounty-program). We are committed to conduct our Security Process in a professional and civil manner. Public shaming, under-reporting, or misrepresentation of vulnerabilities will not be tolerated.
+This document describes the Security Process for Yearn Finance, including vulnerability disclosures and its bug bounty programs. We are committed to conducting our Security Process in a professional and civil manner. Public shaming, under-reporting, or misrepresentation of vulnerabilities will not be tolerated.
 
-To submit a finding, please follow the steps outlined in receiving disclosures [section](#receiving-disclosures).
+To submit a finding, please follow the steps outlined in the [receiving disclosures section](#receiving-disclosures).
+
 
 ## Responsible Disclosure Standard
 
@@ -10,137 +11,96 @@ Yearn follows a community [standard](https://github.com/RD-Crypto-Spec/Responsib
 
 This standard provides detailed information for:
 
-- [Initial Contact](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#initial-contact): how to establish initial contact with Yearn's security team.
-- [Giving Details](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#giving-details): what details to include with your vulnerability disclosure after having received a response to your initial contact.
-- [Setting Dates](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#setting-dates): how to agree on timelines for releasing updates and making details of the issue public.
+* [Initial Contact](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#initial-contact): how to establish initial contact with Yearn's security team.
+* [Giving Details](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#giving-details): what details to include with your vulnerability disclosure after having received a response.
+* [Setting Dates](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#setting-dates): how to agree on timelines for releasing updates and making details of the issue public.
 
 Any expected deviations and necessary clarifications around the standard are explained in the following sections.
 
+
 ## Receiving Disclosures
+
+### First Step: Bug Bounty Platforms
+
+All security disclosures should **first** be submitted through one of Yearn’s official bug bounty platforms:
+
+* **Immunefi**: [https://immunefi.com/bug-bounty/yearnfinance/information/](https://immunefi.com/bug-bounty/yearnfinance/information/)
+* **Sherlock**: [https://audits.sherlock.xyz/bug-bounties/30](https://audits.sherlock.xyz/bug-bounties/30)
+
+These platforms provide structured communication, payout management, and a transparent process for both researchers and Yearn.
 
 ### Directly to Yearn
 
-Yearn is committed to working with researchers who submit security vulnerability notifications to us, to resolve those issues on an appropriate timeline, and to perform a coordinated release, giving credit to the reporter if they would so like.
+If—for some reason—the contract in scope is not listed on these bug bounty platforms, or if you prefer to reach out directly, you can refer to the [Contact Information](#Contact-Information)
 
-Please submit issues to **all** of the following main points of contact for
-security related issues according to the
-[initial contact](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#initial-contact)
-and [giving details](https://github.com/RD-Crypto-Spec/Responsible-Disclosure#giving-details)
-guidelines.
 
-For all security related issues, Yearn has the following main points of contact:
+### Contact Information
 
-| Contact                | Public key                                                                                                   | Email                             | Keybase                                         |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------- | ----------------------------------------------- |
-| 0xJiji                 | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/0xjiji.asc)                           | 0x7171 at protonmail.com                | [@0xjiji](https://keybase.io/0xjiji/chat) |
-| Doggie Boy / fubuloubu | [PGP](https://github.com/iearn-finance/yearn-security/blob/master/keys/publickey.yearn-security%40pm.me.asc) | yearn-security at pm.me           | [@fubuloubu](https://keybase.io/fubuloubu/chat) |
+For all security-related issues, Yearn maintains the following primary points of contact:
 
-Include all contacts in your communication, PGP encrypted to all parties.
+| Contact | Public key                                                                 | Email                                         |
+| ------- | -------------------------------------------------------------------------- | --------------------------------------------- |
+| tapir   | [PGP](https://github.com/yearn/yearn-security/blob/master/keys/tapir.asc)  | [yvtapir@gmail.com](mailto:yvtapir@gmail.com) |
+| Spalen  | [PGP](https://github.com/yearn/yearn-security/blob/master/keys/spalen.asc) | [spalen@proton.me](mailto:spalen@proton.me)   |
 
-You can also reach out informally over keybase encrypted chat to one or more of the contacts as per the details above.
 
-### Via Immunefi
 
-A bug bounty is also hosted on Immunefi at the address [https://immunefi.com/bounty/yearnfinance/](https://immunefi.com/bounty/yearnfinance/).
-
-Vulnerabilities may also be disclosed through the [Immunefi platform](https://immunefi.com/). Immunefi will then handle bug bounty communications.
-
-Users who violate the rules of participation will not receive bug bounty payouts and may be temporarily suspended or banned from the bug bounty program.
 
 ## Sending Disclosures
 
-In the case where we become aware of security issues affecting other projects that has never affected Yearn, our intention is to inform those projects of security issues on a best effort basis.
+When Yearn becomes aware of security issues affecting other projects, we may inform those projects on a best-effort basis.
 
-In the case where we fix a security issue in Yearn that also affects the following neighboring projects, our intention is to engage in responsible disclosures with them as described in the adopted [standard](https://github.com/RD-Crypto-Spec/Responsible-Disclosure), subject to the deviations described in the deviations [section](#deviations-from-the-standard) of this document.
+When we fix a security issue in Yearn that also affects neighboring projects, we intend to engage in responsible disclosures with them as described in the adopted [standard](https://github.com/RD-Crypto-Spec/Responsible-Disclosure), subject to the deviations explained [below](#deviations-from-the-standard).
+
+---
 
 ## Bilateral Responsible Disclosure Agreements
 
-_Yearn does not currently have any established bilateral disclosure agreements._
+*Yearn does not currently maintain any established bilateral disclosure agreements.*
 
-## Bug Bounty Program
 
-Yearn has a Bug Bounty program to encourage security researchers to spend time studying the protocol in order to uncover vulnerabilities. We believe these researchers should get fairly compensated for their time and effort, and acknowledged for their valuable contributions.
+## Giving Details
 
-### Rules
+After you receive a response to your initial contact, you should disclose the details of the vulnerability to the potentially affected party, along with reasons you think they may be affected and any advice you have on how to fix the issue. Once you have made initial contact, you are expected to provide all the technical details about the vulnerability within two working days of receiving acknowledgement of your initial contact.
 
-1. Bug has not been publicly disclosed.
-2. Vulnerabilities that have been previously submitted by another contributor or already known by the Yearn development team are not eligible for rewards.
-3. The size of the bounty payout depends on the assessment of the severity of the exploit. Please refer to the rewards [section](#rewards) below for additional details.
-4. Bugs must be reproducible in order for us to verify the vulnerability.
-5. Rewards and the validity of bugs are determined by the Yearn security team and any payouts are made at their sole discretion.
-6. Terms and conditions of the Bug Bounty program can be changed at any time at the discretion of Yearn.
-7. Details of any valid bugs may be shared with complementary protocols utilized in the Yearn ecosystem in order to promote ecosystem cohesion and safety.
+Your report should include:
 
-### Classifications
+* A PGP encrypted email to maintainers (if you are not using an official bug bounty platform)
+* Description of suspected vulnerability
+* Steps to reproduce the issue
+* Your email address and a secure mechanism to contact you
+* Your name and/or colleagues if you wish to be later recognized
+* Optionally a patch and/or suggestions to resolve the vulnerability
 
-- **Severe:** Highly likely to have a material impact on availability, integrity, and/or loss of funds.
-- **High:** Likely to have impact on availability, integrity, and/or loss of funds.
-- **Medium:** Possible to have an impact on availability, integrity, and/or loss of funds.
-- **Low:** Unlikely to have a meaningful impact on availability, integrity, and/or loss of funds.
+> **Note:** If your report was submitted via an official bug bounty program (e.g. Immunefi, Sherlock), then the secure submission process and communication channel provided by the platform replaces the need for direct PGP-encrypted communication.
 
-### Rewards
+## Setting Dates
 
-- **Severe:** $20,000-$200,000
-- **High:** $5,000-$20,000
-- **Medium:** $1,000-$5,000
-- **Low:** $100-$1,000
+After you have provided details of the issue to your neighbors, you both should agree on a date to release updates and a date to publicize the details of the issue. Issues that require only a small change should correspond with a date relatively soon after giving details - somewhere between 30 and 60 days. Issues that require a more significant investment by both parties might result in a date set up to 90 days in the future.
 
-_Paid out in USD equivalent of USDC, DAI, ETH, YFI, or their Yearn Vault counterparts._
+Parties involved in the disclosure should have the expectation of negotiating publishing dates with all of their neighbors that share the affected code, even if it turns out that those neighbors are not vulnerable for some other reason not known at the time.
 
-Actual payouts are determined by classifying the vulnerability based on its impact and likelihood to be exploited successfully, as well as the process working with the disclosing security researcher. The rewards above represent the _maximum_ that will be paid out for a disclosure.
+It is up to each organization to determine their level of vulnerability to any disclosed issue, and rate issues accordingly. In general though, spend bugs should be considered very high priority - users losing access to their funds is precisely what this standard is intended to address.
 
-### Scope
+It is up to each organization to notify their users of the availability of a fix and migrate their user base to the fixed version.
 
-The scope of the Bug Bounty program spans production smart contracts utilized in the Yearn ecosystem.
+> **Note:** If the vulnerability was reported through an official bug bounty program, timelines and coordination will follow the program’s rules of engagement. If instead the report was made directly (e.g. via PGP-encrypted email), then the same expectations around setting responsible disclosure timelines still apply and should be mutually agreed upon between the reporter and the affected parties.
 
-#### Repositories
 
-For exact smart contracts, refer to:
-
-- [yearn-vaults](https://github.com/yearn/yearn-vaults/blob/master/SECURITY.md)
-- [yearn-protocol](https://github.com/yearn/yearn-protocol/blob/develop/SECURITY.md)
-
-#### Production Contracts
-
-Yearn adds and removes Vaults and Strategies from Production on an ongoing basis. The following functions can be called to obtain a list of smart contract addresses that are currently in Production and that are covered by the program.
-
-> IMPORTANT NOTICE: Keep in mind that the smart contracts mentioned in the table below are **only** helper contracts to fetch the actual vaults and strategies in production, they don't hold any funds and are **NOT** part of the bounty program's scope. **To get the actual contract addresses for vaults and strategies part of the bounty program you need to call the query functions on these helper contracts listed in the table below.**
-
-| Network | Contract | Description | Address | Function to call |
-| --- | --- | --- | --- | --- |
-| Ethereum | StrategiesHelper | list of production strategy addresses | [`0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a`](https://etherscan.io/address/0x5b4F3BE554a88Bd0f8d8769B9260be865ba03B4a#readContract) | `assetsStrategiesAddresses()` |
-| Ethereum | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x437758D475F70249e03EDa6bE23684aD1FC375F0`](https://etherscan.io/address/0x437758D475F70249e03EDa6bE23684aD1FC375F0#readContract) | `assetsAddresses()` |
-| Ethereum | AddressesGeneratorIronBank | list of iron bank market addresses | [`0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46`](https://etherscan.io/address/0xa0B57619A980DFEfD50f24F310EE1b55A40A9D46#readContract) | `assetsAddresses()` |
-| Fantom | StrategiesHelper | list of production strategy addresses | [`0x97D0bE2a72fc4Db90eD9Dbc2Ea7F03B4968f6938`](https://ftmscan.com/address/0x97D0bE2a72fc4Db90eD9Dbc2Ea7F03B4968f6938#readContract) | `assetsStrategiesAddresses()` |
-| Fantom | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x8ca27a3ab8917a033f278D20135d2467faA099bA`](https://ftmscan.com/address/0x8ca27a3ab8917a033f278D20135d2467faA099bA#readContract) | `assetsAddresses()` |
-| Fantom | AddressesGeneratorIronBank | list of iron bank market addresses | [`0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B`](https://ftmscan.com/address/0x5ABdfDfa0cF2d83c4755E0a2a782eF57FEd5c23B#readContract) | `assetsAddresses()` |
-| Optimism | StrategiesHelper | list of production strategy addresses | [`0xD3A93C794ee2798D8f7906493Cd3c2A835aa0074`](https://optimistic.etherscan.io/address/0xD3A93C794ee2798D8f7906493Cd3c2A835aa0074#readContract) | `assetsStrategiesAddresses()` |
-| Optimism | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032`](https://optimistic.etherscan.io/address/0xD63aB09ac2048a7eCac92f0fFad5F104edD0E032#readContract) | `assetsAddresses()` |
-| Arbitrum | StrategiesHelper | list of production strategy addresses | [`0x66a1a27f4b22dcaa24e427dcffbf0cddd9d35e0f`](https://arbiscan.io/address/0x66a1a27f4b22dcaa24e427dcffbf0cddd9d35e0f#readContract) | `assetsStrategiesAddresses()` |
-| Arbitrum | AddressesGeneratorV2Vaults | list of endorsed v2 vault addresses | [`0x3a8efa2d87d60c0289f19b44a0928f4269c0f094`](https://arbiscan.io/address/0x3a8efa2d87d60c0289f19b44a0928f4269c0f094#readContract) | `assetsAddresses()` |
-
-The following contracts are also included in the bounty program, although they won't show on the above lists:
-
-| Network | Contract Name | Address |
-| --- | --- | --- |
-| Ethereum | yCRV | [`0xFCc5c47bE19d06BF83eB04298b026F81069ff65b`](https://etherscan.io/address/0xFCc5c47bE19d06BF83eB04298b026F81069ff65b) |
-| Ethereum | Donator | [`donatooor.ychad.eth`](https://etherscan.io/name-lookup-search?id=donatooor.ychad.eth) |
-| Ethereum | Splitter | [`bribe-splitter.ychad.eth`](https://etherscan.io/name-lookup-search?id=bribe-splitter.ychad.eth) |
-| Ethereum | yBribe | [`ybribe.ychad.eth`](https://etherscan.io/name-lookup-search?id=ybribe.ychad.eth) |
-
-Note: Other contracts, outside of the ones mentioned above, might be considered on a case by case basis, please, reach out to the Yearn development team for clarification.
 
 ## Deviations from the Standard
 
-The standard describes reporters of vulnerabilities including full details of an issue, in order to reproduce it. This is necessary for instance in the case of an external researcher both demonstrating and proving that there really is a security issue, and that security issue really has the impact that they say it
-has - allowing the development team to accurately prioritize and resolve the issue.
+The standard describes reporters of vulnerabilities including full details of an issue, in order to reproduce it. This is necessary for proving that a reported security issue is real, reproducible, and impactful—allowing the development team to accurately prioritize and resolve it.
 
-In the case of a counterfeiting or fund-stealing bug affecting Yearn, however, we might decide not to include those details with our reports to partners ahead of coordinated release, as long as we are sure that they are not vulnerable.
+However, in the case of counterfeiting or fund-stealing bugs affecting Yearn, we may choose not to include full technical details in advance reports to partners before a coordinated release, provided we are confident that they are not vulnerable.
+
 
 ## More Information
 
-Additional security-related information about the Yearn project including disclosures, signatures and PGP public keys can be found in the [yearn-security](https://github.com/yearn/yearn-security) repository.
+Additional security-related information about the Yearn project, including disclosures, signatures, and PGP public keys, can be found in the [yearn-security](https://github.com/yearn/yearn-security) repository.
+
 
 ## Credits
 
 Parts of this document were inspired by [Grin's security policy](https://github.com/mimblewimble/grin/blob/master/SECURITY.md).
+
