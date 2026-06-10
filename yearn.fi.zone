@@ -1,0 +1,2 @@
+; Remove the CNAME record for ybribe.yearn.fi
+; ybribe    IN CNAME    cname.vercel-dns.com.
