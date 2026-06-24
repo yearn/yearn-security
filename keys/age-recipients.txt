@@ -1,0 +1,10 @@
+# Yearn security triage age recipients
+
+# banteg
+age1yubikey1qdw0d67rq5clnffxe92sa8xc0093z0885nt73v4pq500nh5my03rksr8k29
+
+# spalen0
+age1yubikey1qgkt7ga72f7d4vggxn3crfrfrge9ya90fzqc0dmuj09vv6fx7gsxkgg5jpa
+
+# tapir
+age1qsewuuj8znclpy4yhk59kh6wpsgsprllawa6jpn545tjj9h4ggyqhpfjt4
