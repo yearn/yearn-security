@@ -43,9 +43,9 @@ For all security-related issues, Yearn maintains the following primary points of
 | tapir   | [PGP](https://github.com/yearn/yearn-security/blob/master/keys/tapir.asc)  | [yvtapir@gmail.com](mailto:yvtapir@gmail.com) |
 | Spalen  | [PGP](https://github.com/yearn/yearn-security/blob/master/keys/spalen.asc) | [spalen@proton.me](mailto:spalen@proton.me)   |
 
-PGP remains the primary direct encrypted communication path. As a backup option,
-Yearn also maintains [age recipients](keys/age-recipients.txt) for active
-security triage contacts.
+Yearn prefers [age recipients](keys/age-recipients.txt) for direct encrypted
+communication with active security triage contacts. PGP remains available as an
+alternative encrypted communication path.
 
 
 ## Sending Disclosures
