@@ -47,8 +47,9 @@ For direct reports meeting the requirements above, Yearn maintains the following
 
 | Contact | Email                                     |
 | ------- | ----------------------------------------- |
-| tapir   | [yvtapir@gmail.com](mailto:yvtapir@gmail.com) |
+| Tapir   | [yvtapir@gmail.com](mailto:yvtapir@gmail.com) |
 | Spalen  | [spalen@proton.me](mailto:spalen@proton.me)   |
+| Moto    | [mmotogascar@proton.me](mailto:motmotogascar@proton.me) |
 
 Yearn prefers [age recipients](keys/age-recipients.txt) for direct encrypted
 communication with active security triage contacts.
