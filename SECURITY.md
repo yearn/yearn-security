@@ -20,33 +20,39 @@ Any expected deviations and necessary clarifications around the standard are exp
 
 ## Receiving Disclosures
 
-### First Step: Bug Bounty Platforms
+### Official Bug Bounty Platforms
 
-All security disclosures should **first** be submitted through one of Yearn’s official bug bounty platforms:
+Reports covered by Yearn's bug bounty programs must be submitted **only** through the
+appropriate official platform:
 
-* **Immunefi**: [https://immunefi.com/bug-bounty/yearnfinance/information/](https://immunefi.com/bug-bounty/yearnfinance/information/)
-* **Sherlock**: [https://audits.sherlock.xyz/bug-bounties/30](https://audits.sherlock.xyz/bug-bounties/30)
+* **Yearn core contracts**: [Immunefi](https://immunefi.com/bug-bounty/yearnfinance/information/)
+* **Yearn strategies**: [Sherlock](https://audits.sherlock.xyz/bug-bounties/30)
+
+Review each program's current scope and rules before submitting. Reports within a program's
+scope must use that platform's submission and communication channels, rather than email.
 
 These platforms provide structured communication, payout management, and a transparent process for both researchers and Yearn.
 
 ### Directly to Yearn
 
-If—for some reason—the contract in scope is not listed on these bug bounty platforms, or if you prefer to reach out directly, you can refer to the [Contact Information](#Contact-Information)
+Email reports are accepted only for vulnerabilities that demonstrate a direct attack against Yearn
+on an attack surface outside the scope of **both** programs above. Include the affected asset,
+a reproducible attack path, and an explanation of why the report falls outside both programs' scope.
+Send qualifying reports to the contacts listed in [Contact Information](#contact-information).
 
 
 ### Contact Information
 
-For all security-related issues, Yearn maintains the following primary points of contact:
+For direct reports meeting the requirements above, Yearn maintains the following points of contact:
 
-| Contact | Public key                                                                 | Email                                         |
-| ------- | -------------------------------------------------------------------------- | --------------------------------------------- |
-| tapir   | [PGP](https://github.com/yearn/yearn-security/blob/master/keys/tapir.asc)  | [yvtapir@gmail.com](mailto:yvtapir@gmail.com) |
-| Spalen  | [PGP](https://github.com/yearn/yearn-security/blob/master/keys/spalen.asc) | [spalen@proton.me](mailto:spalen@proton.me)   |
+| Contact | Email                                     |
+| ------- | ----------------------------------------- |
+| Tapir   | [yvtapir@gmail.com](mailto:yvtapir@gmail.com) |
+| Spalen  | [spalen@proton.me](mailto:spalen@proton.me)   |
+| Moto    | [mmotogascar@proton.me](mailto:motmotogascar@proton.me) |
 
 Yearn prefers [age recipients](keys/age-recipients.txt) for direct encrypted
-communication with active security triage contacts. PGP remains available as an
-alternative encrypted communication path.
-
+communication with active security triage contacts.
 
 ## Sending Disclosures
 
@@ -67,14 +73,15 @@ After you receive a response to your initial contact, you should disclose the de
 
 Your report should include:
 
-* A PGP encrypted email to maintainers (if you are not using an official bug bounty platform)
+* For qualifying direct reports, an email encrypted with the [age recipients](keys/age-recipients.txt)
 * Description of suspected vulnerability
 * Steps to reproduce the issue
 * Your email address and a secure mechanism to contact you
 * Your name and/or colleagues if you wish to be later recognized
 * Optionally a patch and/or suggestions to resolve the vulnerability
 
-> **Note:** If your report was submitted via an official bug bounty program (e.g. Immunefi, Sherlock), then the secure submission process and communication channel provided by the platform replaces the need for direct PGP-encrypted communication.
+> **Note:** For reports submitted through Immunefi or Sherlock, use the platform's secure submission
+> process and communication channel instead of encrypted email.
 
 ## Setting Dates
 
@@ -86,8 +93,10 @@ It is up to each organization to determine their level of vulnerability to any d
 
 It is up to each organization to notify their users of the availability of a fix and migrate their user base to the fixed version.
 
-> **Note:** If the vulnerability was reported through an official bug bounty program, timelines and coordination will follow the program’s rules of engagement. If instead the report was made directly (e.g. via PGP-encrypted email), then the same expectations around setting responsible disclosure timelines still apply and should be mutually agreed upon between the reporter and the affected parties.
-
+> **Note:** For vulnerabilities reported through an official bug bounty program, timelines and
+> coordination follow the program's rules of engagement. For qualifying email reports outside both
+> programs' scope, responsible disclosure timelines should be mutually agreed upon between the
+> reporter and the affected parties.
 
 
 ## Deviations from the Standard
